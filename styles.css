@@ -274,7 +274,7 @@ textarea{
     resize: horizontal 
 }
 
-#send{
+input[type=submit]{
     border: none;
     background-color: #181818;
     color: whitesmoke;
@@ -284,7 +284,7 @@ textarea{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#send:hover{
+input[type=submit]:hover{
     background-color: #003031;
     color: whitesmoke;
     cursor: pointer;
