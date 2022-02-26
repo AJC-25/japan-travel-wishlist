@@ -34,6 +34,13 @@ li{
     margin-top: 10px;
 }
 
+li > a:hover{
+    background-color: #003031;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 h1{
     font-family: 'Rochester';
     font-size: 56px;
@@ -44,6 +51,16 @@ h2{
     font-family: 'simsun';
     font-size: 30px;
     display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3 > a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 #title{
@@ -89,7 +106,15 @@ button{
     background-color: rgba(196, 196, 196, 0.75);
     border-radius: 10px;
     padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+button:hover{
+    background-color: #003031;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
 #wishlist-section{
     display: flex;
     padding: 15px;
@@ -108,7 +133,7 @@ button{
     position: relative;
 }
 
-#wishlist-section > p{
+h3{
     background-color: rgba(196, 196, 196, 0.75);
     width: 780px;
     text-align: center;
@@ -120,3 +145,53 @@ button{
 .middle{
     margin: 0 15px
 }
+
+.gallery{
+    position: relative;
+}
+
+.first-column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 250px;
+    height: 166.69px;
+    position: relative;
+    margin-top: 0;
+}
+
+.gallery > h3{
+    margin: 0;
+    width: 250px;
+}
+
+#learn-more1{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.second-column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 250px;
+    height: 166.69px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#learn-more2{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+#about{
+    background-color: rgba(196, 196, 196, 0.75);
+    padding: 15px;
+    justify-content: center;
+}
+
