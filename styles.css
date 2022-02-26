@@ -25,6 +25,7 @@ header{
 ul{
     display: flex;
     margin: 0 0 10px 0;
+    padding: 0;
     justify-content: center;
 }
 
@@ -98,7 +99,7 @@ h3 > a{
 #idea-button{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+
 }
 
 button{
@@ -107,6 +108,7 @@ button{
     border-radius: 10px;
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0 20px 0;
 }
 
 button:hover{
@@ -119,6 +121,7 @@ button:hover{
     display: flex;
     padding: 15px;
     justify-content: center;
+    /* margin-bottom: 20px; */
 }
 
 .column{
@@ -139,59 +142,109 @@ h3{
     text-align: center;
     color: whitesmoke;
     position: absolute;
-    margin: 80px 0 0 0;
+    margin-top: 80px;
+}
+
+.link-left{
+    width: 250px;
+    margin: 80px 530px 0 0;
+}
+
+.link-right{
+    width: 250px;
+    margin: 80px 0 0 530px;
 }
 
 .middle{
     margin: 0 15px
 }
 
-.gallery{
-    position: relative;
+#subtitle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(196, 196, 196, 0.75); */
+    margin: 120px 30px 0 30px;
 }
 
-.first-column img{
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 250px;
-    height: 166.69px;
-    position: relative;
-    margin-top: 0;
-}
-
-.gallery > h3{
+#subtitle > h2{
     margin: 0;
-    width: 250px;
+    padding-top: 10px;
 }
 
-#learn-more1{
+#subtitle-2{
+    position: absolute;
     display: flex;
-    padding: 15px;
     justify-content: center;
-    margin-top: 0;
-    padding-top: 0;
+    /* background-color: rgba(196, 196, 196, 0.75); */
+    margin: 0 30px 0 30px;
 }
 
-.second-column img{
+#subtitle-2 > h1{
+    margin: 0;
+}
+
+#learn-more-1{
+    display: flex;
+    margin: 15px 30px 0 30px;
+    padding: 0  15px 15px 15px;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.75);
+}
+
+.right{
+    margin-right: 140px; 
+}
+
+.left{
+    margin-left: 140px;
+}
+
+#learn-more-1 img{
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 250px;
+    height: 166.69px;
+    position: relative;
+}
+
+#learn-more-2{
+    display: flex;
+    margin: 0 30px 50px 30px;
+    padding: 0  15px 0 15px;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.75);
+}
+
+#learn-more-2 img{
     margin-top: 8px;
     vertical-align: middle;
     width: 250px;
     height: 166.69px;
     position: relative;
-    margin-bottom: 0;
 }
 
-#learn-more2{
-    display: flex;
-    padding: 15px;
-    justify-content: center;
-    margin-bottom: 0;
-    padding-top: 0;
+.column > h3{
+    margin: 0 0 0 0;
+    width: 250px;
 }
 
-#about{
-    background-color: rgba(196, 196, 196, 0.75);
-    padding: 15px;
-    justify-content: center;
+footer{
+    background-color: #B7C8C9;
+    width: 842px;
+    height: 107px;
+    font-size: 15px;
+    margin-top: 50px;
 }
 
+footer > p{
+    font-size: 13px;
+    text-align: center;
+    color: #E0E0E0;
+}
+
+#logo{
+    flex: 1;
+    text-align: center;
+    align-self: flex-end;
+}
