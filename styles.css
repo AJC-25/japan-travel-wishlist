@@ -266,6 +266,7 @@ footer > p{
 
 textarea{
     width: 100%;
+    max-width: 707px;
     padding: 15px;
     border: 1px solid #ccc;
     box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -273,15 +274,17 @@ textarea{
     resize: horizontal 
 }
 
-input[type=submit]{
+#send{
     border: none;
-    background-color: rgba(196, 196, 196, 0.75);
+    background-color: #181818;
+    color: whitesmoke;
     border-radius: 10px;
-    padding: 10px 30px;
+    padding: 10px 50px;
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-input[type=submit]:hover{
+#send:hover{
     background-color: #003031;
     color: whitesmoke;
     cursor: pointer;
