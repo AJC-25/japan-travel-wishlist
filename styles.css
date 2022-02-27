@@ -54,6 +54,8 @@ h2{
     display: flex;
 }
 
+/*index.html*/
+
 a{
     text-decoration: none;
     color: black;
@@ -288,4 +290,82 @@ input[type=submit]:hover{
     background-color: #003031;
     color: whitesmoke;
     cursor: pointer;
+}
+
+/*wishlist.html*/
+ .row{
+    padding: 0 4px;
+    display: flex;
+    flex-direction: row; 
+    height: 50%;
+    width: 100%;
+
+}
+
+.gallery{
+    margin: 0 30px 0 30px;    
+} 
+
+.top{
+    margin-top: 50px;
+}
+
+.gallery-title{
+    justify-content: center;
+    font-size: 25px;
+    margin: 10px 0;
+
+}
+
+.grid{
+    /* flex: 25%; */
+    position: relative;
+    max-width: 33%;
+    height: 50%;
+    padding: 0 4px;
+}
+
+.image {
+    margin-top: 10px;
+    opacity: 1;
+    display: block;
+    width: 250px;
+    height: 166px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.big{
+    height: 345px;
+}
+  
+.mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.grid:hover .image {
+    opacity: 0.3;
+}
+  
+.grid:hover .mid {
+    opacity: 1;
+}
+  
+.text {
+    background-color: #003031;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.text > h2{
+    font-size: 25px;
+    padding: 4px;
+    margin: 0;
 }
